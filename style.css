@@ -106,4 +106,45 @@ figure figcaption{
 }
 .player p{
     color: #6c6c6c;
-} */
+}
+
+/* newsletter css */
+.newsletter-section{
+    margin-top: 85px;
+}
+.newsletter{
+    background: #2d25a0;
+    height: 550px;
+    background-image: linear-gradient(112deg, #ffffffdc 50%, transparent 50%), linear-gradient(rgba(0, 0, 0, 0.651), black), url(images/messi.jpg);
+    background-position: top right;
+    padding: 4rem;
+}
+form{
+    width: 380px;
+    height: 400px;
+}
+.form-title{
+    font-size: 40px;
+    color: #2d25a0;
+    margin-bottom: 2.5rem;
+}
+.form-title i{
+    color: #e02c6d;
+}
+form input{
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 1rem 2rem;
+    margin-bottom: 2.5rem;
+    color: #2d25a0;
+    font-size: inherit;
+    font-size: 1rem;
+}
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #e02c6d;
+}
+.btn-submit{
+    border: 0;
+}
